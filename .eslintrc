@@ -19,6 +19,11 @@
     "prefer-arrow-callback": [0],
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "warn",
-    "react/self-closing-comp": "off"
+    "react/self-closing-comp": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/function-component-definition": "off",
+    "import/newline-after-import": "off",
+    "react/jsx-curly-brace-presence": "warn"
   }
 }
