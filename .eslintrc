@@ -24,6 +24,10 @@
     "react/jsx-no-useless-fragment": "off",
     "react/function-component-definition": "off",
     "import/newline-after-import": "off",
-    "react/jsx-curly-brace-presence": "warn"
+    "react/jsx-curly-brace-presence": "warn",
+    "array-callback-return": "off",
+    "react/button-has-type": "off",
+    "import\no-unresolved": "off",
+    "no-unreachable": "off"
   }
 }

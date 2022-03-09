@@ -7,8 +7,8 @@ const LINKS = [
     text: 'Home',
   },
   {
-    to: '/contact',
-    text: 'Contact',
+    to: '/Starred',
+    text: 'Starred',
   },
 ];
 const Nav = () => {
@@ -16,7 +16,7 @@ const Nav = () => {
     <>
       <ul>
         {LINKS.map(item => (
-          <li>
+          <li key={item.to}>
             <Link to={item.to}>Go to {item.text} page</Link>
           </li>
         ))}

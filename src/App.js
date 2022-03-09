@@ -1,8 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './components/Nav';
-import Contact from './pages/Contact';
+// import Nav from './components/Nav';
+import Starred from './pages/Starred';
+import Show from './pages/Show';
 import Home from './pages/Home';
 
 function App() {
@@ -16,16 +17,18 @@ function App() {
         flexDirection: 'column',
       }}
     >
-      <Nav />
       <Switch>
         <Route path="/" exact>
           <Home />
         </Route>
 
-        <Route path="/contact" exact>
-          <Contact />
+        <Route path="/Starred" exact>
+          <Starred />
         </Route>
 
+        <Route exact path="/Show/:id">
+          <Show />
+        </Route>
         <Route>
           <div>
             <h1>404</h1>
