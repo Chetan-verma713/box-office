@@ -28,6 +28,7 @@
     "array-callback-return": "off",
     "react/button-has-type": "off",
     "import\no-unresolved": "off",
-    "no-unreachable": "off"
+    "no-unreachable": "off",
+    "no-underscore-dangle": "off"
   }
 }
