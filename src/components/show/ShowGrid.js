@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ShowCard from './ShowCard';
 import IMAGE_NOT_FOUND from '../../images/imageNotFound.png';
 import { FlexGrid } from '../Styled';
