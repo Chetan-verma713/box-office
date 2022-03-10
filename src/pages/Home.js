@@ -62,6 +62,7 @@ const Home = () => {
         onChange={onChangeInput}
         onKeyDown={onKeyDown}
         value={input}
+        placeholder="Search for something"
       />
 
       <label htmlFor="shows-search">

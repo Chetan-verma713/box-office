@@ -1,22 +1,24 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+
 // import './App.css';
+import { ThemeProvider } from 'styled-components';
 // import Nav from './components/Nav';
 import Starred from './pages/Starred';
 import Show from './pages/Show';
 import Home from './pages/Home';
 
+const theme = {
+  mainColors: {
+    blue: '#2400ff',
+    gray: '#c6c6c6',
+    dark: '#353535',
+  },
+};
+
 function App() {
   return (
-    <div
-      className="container"
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column',
-      }}
-    >
+    <ThemeProvider theme={theme}>
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -38,7 +40,7 @@ function App() {
           </div>
         </Route>
       </Switch>
-    </div>
+    </ThemeProvider>
   );
 }
 
