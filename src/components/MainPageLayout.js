@@ -1,26 +1,18 @@
 import React from 'react';
-import Title from '../pages/Title';
-import Nav from './Nav';
+import Navs from './Navs';
+import Title from './Title';
 
 const MainPageLayout = ({ children }) => {
-  return (
-    <div
-      className="container"
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column',
-      }}
-    >
-      <Title
-        title="Box-Office"
-        subTitle="Are you looking for a movie or an actor?"
-      />
-      <Nav />
-      {children}
-    </div>
-  );
+    return (
+        <div>
+            <Title
+                title="Box Office"
+                subtitle="Are you looking for a movie or an actor?"
+            />
+            <Navs />
+            {children}
+        </div>
+    );
 };
 
 export default MainPageLayout;
