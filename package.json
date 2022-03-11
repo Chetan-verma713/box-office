@@ -1,7 +1,8 @@
 {
   "name": "box-office",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://chetan-verma713.github.io/box-office/",
+  "public": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
