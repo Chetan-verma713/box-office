@@ -65,7 +65,7 @@ const Home = () => {
             <RadioInputsWrapper>
                 <div>
                     <CustomRadio
-                        label="Shows"
+                        label="Show"
                         id="shows-search"
                         value="shows"
                         checked={isShowSearch}
@@ -74,7 +74,7 @@ const Home = () => {
                 </div>
                 <div>
                     <CustomRadio
-                        label="Shows"
+                        label="Actor"
                         id="actors-search"
                         value="people"
                         checked={!isShowSearch}

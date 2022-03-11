@@ -57,7 +57,6 @@ const CustomRadio = ({ label, ...restProps }) => {
     return (
         <RadioWrapper htmlFor={restProps.id}>
             {label}
-            Shows
             <input {...restProps} type="radio" />
             <span />
         </RadioWrapper>
